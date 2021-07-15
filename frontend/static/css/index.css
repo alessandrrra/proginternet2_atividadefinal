@@ -1,0 +1,41 @@
+body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Helvetica';
+    font-size: 25px;
+    color: #735755;
+    background-color: #B4CBD9;
+}
+
+a {
+    text-align: center;
+    margin-top: 10px;
+    color: #735755;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background-color: #F2B680;
+}
+
+.navlink {
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #735755;
+    font-weight: 550;
+}
+
+.navlink:hover {
+    background: #D99873;
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
